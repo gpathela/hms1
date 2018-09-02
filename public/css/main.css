@@ -1,0 +1,85 @@
+/*
+STYLES.CSS
+
+Course:  Bootstrap 4 Quick Start
+Author:  Brad Hussey
+Website: bradhussey.ca
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* cover */
+
+#cover {
+    background: #222 url("/images/stars.jpg") center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url("/images/team1.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+/* Panels */
+
+.navigation-list {
+    margin-left: auto;
+}
+
+.main {
+    vertical-align: bottom;
+    width: 100%;
+}
+
+.sidebar,
+.mainContent {
+    padding: 5px 7px 9px 5px;
+    margin: 10px 12px 14px 16px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+.sidebar {
+    height: 300px;
+    width: 20%;
+    box-sizing: border-box;
+    background: gray;
+}
+
+.mainContent {
+    width: 75%;
+    box-sizing: border-box;
+}
